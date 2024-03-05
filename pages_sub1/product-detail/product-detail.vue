@@ -1,6 +1,6 @@
 <template>
 	<view>
-		uni-app开发了
+		商品详情页
 	</view>
 </template>
 

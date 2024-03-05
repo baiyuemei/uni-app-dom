@@ -1,8 +1,11 @@
 import App from './App'
+import fly from './utils/request'
+
 
 // #ifndef VUE3
 import Vue from 'vue'
 import './uni.promisify.adaptor'
+
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
@@ -13,6 +16,7 @@ app.$mount()
 
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
+
 export function createApp() {
   const app = createSSRApp(App)
   return {
@@ -20,3 +24,7 @@ export function createApp() {
   }
 }
 // #endif
+import {showMsg} from  "utils/showmsg"
+
+Vue.prototype.$fly=fly
+Vue.prototype.$msg=showMsg

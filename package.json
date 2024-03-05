@@ -4,10 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@dcloudio/uni-ui": "^1.5.2"
+    "@dcloudio/uni-ui": "^1.5.2",
+    "flyio": "^0.6.14"
   },
   "devDependencies": {
     "sass": "^1.71.1",
     "sass-loader": "10.1.1"
-  }
+  },
+  "repository": "https://github.com/baiyuemei/uni-app-dom.git",
+  "author": "baiyuemei <super—start01@163.com>"
 }
