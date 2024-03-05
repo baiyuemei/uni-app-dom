@@ -1,0 +1,13 @@
+{
+  "name": "heima_uni-app-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.2"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1",
+    "sass-loader": "10.1.1"
+  }
+}
